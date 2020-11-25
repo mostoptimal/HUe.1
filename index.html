@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+    <link rel="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap">
+    <link href="/fontawesome/css/all.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <title>Pick a Pet</title>
+</head>
+<body class="align-content-between m-4 brown" style="font-family: 'Montserrat',sans-serif">
+
+<!--The Header Navigation Bar-->
+<header>
+    <nav class="navbar navbar-expand navbar-light fixed-top bg-light">
+        <img src="images/Logo.png" height="5%" width="10%" alt="Logo...">
+        <div class="collapse navbar-collapse ">
+            <ul class="navbar-nav justify-content-center m-auto"><!---->
+                <li class="nav-item active">
+                    <a class="nav-link text-nowrap" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-nowrap" href="#">Über uns</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-nowrap" href="#">Tiere</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-nowrap" href="#">Spenden</a>
+                </li>
+            </ul>
+            <form class="form-inline mt-2 mt-xs-0">
+                <input class="form-control mr-sm-5" type="text" placeholder="" aria-label="Search">
+                <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+            </form>
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+            </svg>
+        </div>
+    </nav>
+</header>
+<!--The Header Navigation Bar End -->
+
+<!--Dog and Cat Pictures-->
+<section>
+    <div class="row">
+        <div class="col-sm-6 col-md-6 p-0">
+            <img alt="" class="img-responsive center-block" src="images/hundStartseite.jpg" width="100%" height="100%" /><!--Dog Picture-->
+            <button class="btn" style="background-color: #786E5E; position: absolute; top: 90%; left: 50%; transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%);color: white; font-size: 16px; padding: 8px 24px;border: none; cursor: pointer; border-radius: 5px;">Walk with a Dog</button>
+        </div>
+        <div class="col-sm-6 col-md-6 p-0">
+            <img alt="" class="img-responsive center-block" src="images/katzeStartseite.jpg" width="100%" height="100%"  /><!--Cat Picture-->
+            <button class="btn" style="background-color: #786E5E; position: absolute; top: 90%; left: 50%; transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%);color: white; font-size: 16px; padding: 8px 24px;border: none; cursor: pointer; border-radius: 5px;">Cuddle a Cat</button>
+        </div>
+    </div>
+
+</section>
+<br><br>
+
+<!--Das ist Pick a Pet-->
+<section>
+    <h4 class="text-center" style="letter-spacing: 1px;">Das ist Pick a Pet</h4>
+    <br>
+    <div class="row image-grid">
+        <div class='col-sm-3 col-md-3' align="center">
+            <img src="images/RundTeam.jpg" alt="Das Team" class="rounded-circle img-responsive center-block" height="100" width="100">
+            <p class="brown">
+                Das sind wir:
+                Das Team
+                hinter „Pick a
+                Pet“
+            </p>
+        </div>
+        <div class='col-sm-3 col-md-3' align="center">
+            <img src="images/RundCovid.jpg" class="rounded-circle img-responsive center-block" height="100" width="100" alt="RundCovid">
+            <p class="brown">
+                Auch während<br>
+                Covid-19 sind<br>
+                wir für euch da
+            </p>
+        </div>
+        <div class='col-sm-3 col-md-3' align="center">
+            <img src="images/RundComputer.jpg" class="rounded-circle img-responsive center-block" height="100" width="100" alt="RundComputer">
+            <p style="color: #786E5E">
+                Bequem online<br>
+                Termine mit<br>
+                dem Tier deiner<br>
+                Wahl buchen
+            </p>
+        </div>
+        <div class='col-sm-3 col-md-3' align="center">
+            <img src="images/RundHund.jpg" class="rounded-circle img-responsive center-block" height="100" width="100" alt="RundHund">
+            <p style="color: #786E5E">
+                Gemeinsame<br>
+                Zeit mit Tieren &<br>
+                nachhaltige<br>
+                Vermittlung<br>
+            </p>
+        </div>
+    </div>
+</section>
+
+<hr class="featurette-divider">
+<br>
+<!--Abonnements and Spenden-->
+<section>
+    <div class='row'>
+        <div class='col-sm-6' >
+            <div class="jumbotron align-content-center" style="background: #ECF1F5">
+                <h4 class="text-center">Abonnements</h4>
+                <p class="text-center">
+                    Bei Pick a Pet hast die Möglichkeit dich<br>
+                    zwischen zwei Abonnements zu<br>
+                    entscheiden.<br>
+                    Informiere dich jetzt über deine Vorteile!<br>
+                    <br>
+                    <br>
+                    <a class="btn btn-md btn-success" role="button">Details</a>
+                </p>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class="jumbotron align-content-center" style="background: #ECF1F5">
+                <h4 class="text-center">Spenden</h4>
+                <p class="text-center">
+                    Tue etwas Gutes und unterstütze über<br>
+                    Pick a Pet das Tierheim deiner Wahl!<br>
+                    - Jetzt Spenden -<br>
+                    <br>
+                    <br>
+                    <br>
+                <a class="btn btn-md btn-success" role="button">Details</a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <hr class="Solid" style="width:2px;text-align:center;margin-left:50px;margin-right:50px">
+    <!--<hr class="featurette-divider">-->
+</section>
+
+<!--Cat&Dog Picture plus 4 Pics-->
+<section >
+    <img src="images/Verlauf.jpg" width="100%">
+    <div class="row image-grid" align="center">
+        <div class="col-sm-3">
+                <img alt="" class="img-responsive center-block" src="images/erfolg1.png" width="60" height="60">
+            <p>2000 aktive<br>
+                Nutzer</p>
+        </div>
+        <div class="col-sm-3">
+                <img alt="" class="img-responsive center-block" src="images/erfolg2.png" width="60" height="60">
+            <p>100 Tierheime<br>
+                gelistet
+            </p>
+        </div>
+        <div class="col-sm-3">
+                <img alt="" class="img-responsive center-block" src="images/erfolg3.png" width="60" height="60">
+            <p>
+                100.000€ spenden<br>
+                gesammelt
+            </p>
+        </div>
+        <div class="col-sm-3 ">
+                <img alt="" class="img-responsive center-block" src="images/erfolg4.png" width="60" height="60">
+            <p>1500 Tiere<br>
+                vermittelt
+            </p>
+        </div>
+    </div>
+</section>
+
+<section>
+
+
+</section>
+<h5 class="text-center align-content-center">Du bist überzeugt von Pick a Pet? Teile uns jetzt deine Meinung  <span class="underline">hier</span> mit!</h5>
+<br>
+<hr>
+<br>
+<h3 class="text-center" style="letter-spacing: 2px">Finde jetzt dein Lieblingstier!</h3>
+<!---->
+<section>
+
+</section>
+
+<!---->
+<section>
+    <div class="row" align="center">
+        <div class="col-sm-3" >
+            <p>Tierart</p>
+            <img src="images/dog.png" alt="dog.png" height="51" width="51">
+            <img src="images/cat.png" alt="cat.png" height="51" width="51">
+        </div>
+        <div class="col-sm-3" >
+            <p>Geschlecht</p>
+            <img src="images/female.png" width="51" height="51">
+            <img src="images/maennlich.png" width="51" height="51">
+        </div>
+        <div class="col-sm-3" >
+            <!--Alter Menu-->
+            <div class="dropdown">
+                <button class="btn dropdown-toggle brown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: lightgray;color: #786E5E">
+                    Alter
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Junior</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Erwachsen</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Senior</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <!-- Search form -->
+            <form class="form-inline d-flex justify-content-center md-form form-sm brown">
+                <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
+                       aria-label="Search">
+                <i class="fas fa-search" aria-hidden="true"></i>
+            </form>
+        </div>
+    </div>
+    <div class="row image-grid">
+        <div class="col-sm-6">
+            <p>Eigenschaften</p>
+            <img src="images/familienfreundlich.png" height="51" width="51">
+            <img src="images/familienfreundlich.png" height="51" width="51">
+            <img src="images/familienfreundlich.png" height="51" width="51">
+            <img src="images/familienfreundlich.png" height="51" width="51">
+            <img src="images/familienfreundlich.png" height="51" width="51">
+        </div>
+        <div class="col-sm-6">
+            <button class="btn" style="background-color: #786E5E;margin-left: 50%;margin-top: 20%">Ergebnisse</button>
+        </div>
+    </div>
+    <hr >
+</section>
+
+<!--Photo Album Cats ---------------------------->
+<section>
+    <div class="row" align="center">
+        <div class="col-sm-3">
+            <div class="card" style="max-height: fit-content"><!--Card 1-->
+                <img class="card-img-top" src="images/uebersicht1.jpg" alt="Card image cap" height="100%" width="100%">
+                <div class="card-body">
+                    <h5 class="card-title">Shiva, Max, Loki</h5>
+                    <p class="card-text">Diese drei Fellnasen sind
+                        sehr abenteuerlustig und
+                        wild.</p>
+                    <div class="container">
+                    <div class="row image-grid">
+                    <div class="col-3">
+                        <img src="images/familienfreundlich.png" width="100%" height="100%">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/familienfreundlich.png" width="100%" height="100%">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/familienfreundlich.png" width="100%" height="100%">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/familienfreundlich.png" width="100%" height="100%">
+                    </div>
+                    </div>
+                    </div>
+                    <a href="#" class="btn" style="background-color: #786E5E">Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" ><!--Card 2-->
+                <img class="card-img-top" src="images/uebersicht1.jpg" alt="Card image cap" height="100%" width="100%">
+                <div class="card-body">
+                    <h5 class="card-title">Lilly, Mia, Cookie</h5>
+                    <p class="card-text">Diese drei Jungkatzen sind
+                        sehr verspielt und
+                        verschmust.</p>
+                    <div class="container">
+                        <div class="row image-grid">
+                            <div class="col-4">
+                                <img src="images/familienfreundlich.png" width="100%" height="100%">
+                            </div>
+                            <div class="col-4">
+                                <img src="images/familienfreundlich.png" width="100%" height="100%">
+                            </div>
+                            <div class="col-4">
+                                <img src="images/familienfreundlich.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn" style="background-color: #786E5E">Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" ><!--Card 3-->
+                <img class="card-img-top" src="images/uebersicht1.jpg" alt="Card image cap" height="100%" width="100%">
+                <div class="card-body">
+                    <h5 class="card-title">Sally</h5>
+                    <p class="card-text">Sally liebt ausgiebige
+                        Krauleinheiten und ihren
+                        Quietscheball.</p>
+                    <div class="container">
+                        <div class="row image-grid">
+                            <div class="col-3">
+                                <img src="images/familienfreundlich.png" width="100%" height="100%">
+                            </div>
+                            <div class="col-3">
+                                <img src="images/familienfreundlich.png" width="100%" height="100%">
+                            </div>
+                            <div class="col-3">
+                                <img src="images/familienfreundlich.png" width="100%" height="100%">
+                            </div>
+                            <div class="col-3">
+                                <img src="images/familienfreundlich.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn" style="background-color: #786E5E">Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" ><!--Card 4-->
+                <img class="card-img-top" src="images/uebersicht1.jpg" alt="Card image cap" height="100%" width="100%">
+                <div class="card-body">
+                    <h5 class="card-title">Dwayne</h5>
+                    <p class="card-text">Dwayn ist eine treue Seele
+                        und sehr Menschenbezogen.
+                        Er ist eher ein Einzelgänger.</p>
+                    <div class="container">
+                        <div class="row image-grid">
+                            <div class="col-4">
+                                <img src="images/familienfreundlich.png" width="100%" height="100%">
+                            </div>
+                            <div class="col-4">
+                                <img src="images/familienfreundlich.png" width="100%" height="100%">
+                            </div>
+                            <div class="col-4">
+                                <img src="images/familienfreundlich.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn" style="background-color: #786E5E">Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row align-content-stretch" align="center">
+        <div class="col-sm-3">
+            <div class="card" ><!--Card 5-->
+                <img class="card-img-top" src="images/uebersicht3.jpg" alt="Card image cap" height="100%" width="100%">
+                <div class="card-body">
+                    <h5 class="card-title">Henry</h5>
+                    <p class="card-text">Henry ist
+                        unternehmenslustig und
+                        liebt lange Spaziergänge.</p>
+                    <a href="#" class="btn" style="background-color: #786E5E">Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" ><!--Card 6-->
+                <img class="card-img-top" src="images/uebersicht3.jpg" alt="Card image cap" height="100%" width="100%">
+                <div class="card-body">
+                    <h5 class="card-title">Emmi</h5>
+                    <p class="card-text">Emmi ist durch ihre Arthrose
+                        nicht mehr ganz so fit aber
+                        umso liebenswerter!</p>
+                    <a href="#" class="btn" style="background-color: #786E5E">Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" >
+                <img class="card-img-top" src="images/uebersicht3.jpg" alt="Card image cap" height="100%" width="100%">
+                <div class="card-body">
+                    <h5 class="card-title">Tom und Jerry</h5>
+                    <p class="card-text">Diese beiden gibt es nur im
+                        Doppelpack zu kuscheln</p>
+                    <a href="#" class="btn" style="background-color: #786E5E">Details</a>
+                </div>
+            </div><!--Card 7-->
+        </div>
+        <div class="col-sm-3">
+            <div class="card" >
+                <img class="card-img-top" src="images/uebersicht3.jpg" alt="Card image cap" height="100%" width="100%">
+                <div class="card-body">
+                    <h5 class="card-title">Theo</h5>
+                    <p class="card-text">Er ist ein aufgeschlossener
+                        und verschmuster Riese.
+                        Seine große Liebe: Leckerlies</p>
+                    <a href="#" class="btn" style="background-color: #786E5E">Details</a>
+                </div>
+            </div><!--Card 8-->
+        </div>
+    </div>
+
+</section>
+<!--Photo Album Cats The End ------------------------>
+
+<div class="jumbotron-fluid" >
+    <img src="images/Friends.jpg" style="width:100%;height:100%;">
+</div>
+<br>
+<br>
+<br>
+<section>
+    <div class="row">
+        <div class="col-sm-7" align="center">
+            <h3>spenden</h3>
+            <p>Hilf einem Tierheim deiner Wahl durch eine<br>
+                Spende, bei der du selber über den Betrag dieser<br>
+                entscheiden kannst.<br><br>
+                70% des Betrages deiner Spende erhält das<br>
+                ausgewählte Tierheim, während die restlichen 30%<br>
+                an "Pick a Pet" gehen.<br><br>
+                Jede Spende, egal wie klein der Betrag scheinen<br>
+                mag, hilft den Tierheimen ungemein!</p>
+        </div>
+        <div class="col-sm-5">
+            <div class="dropdown" >
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #DBD6CE">
+                    Tierheim
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Tierheim Gießen</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Tierheim Wetzlar</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Tierheim Berlin</a>
+                </div>
+            </div>
+            <form class="form-inline" style="margin-top: 20%">
+                <input class="form-control" type="text" placeholder="Betrag &#8364;" aria-label="Betrag">
+            </form>
+            <button type="button" class="btn btn-secondary" style="background-color: #786E5E;margin-top:5%">Spenden</button>
+        </div>
+    </div>
+</section>
+
+<div class="jumbotron-fluid" >
+    <img src="images/Katzenpfote-UeberUns.jpg" style="width:100%;height:100%;">
+</div>
+<br><br>
+<h2 class="text-center">Über uns<br></h2>
+<p class="text-center">
+    „Pick a Pet“ ist ein kundenorientiertes Dienstleistungsunternehmen. Das<br>
+    Team rund um „Pick a Pet“ besteht aus 5 Personen. Die Grundidee basiert<br>
+    auf der Vermittlung von Tieren aus dem Tierheim. Die Besonderheit des<br>
+    Angebots liegt in der Unverbindlichkeit, da über “Pick a Pet” lediglich<br>
+    Zeiträume gebucht werden, die der Nutzer flexibel mit dem Tier verbringen<br>
+    kann. Hierbei wird in zwei Kategorien unterschieden:<br>
+    “Walk with a Dog” und “Cuddle a Cat”.<br><br>
+</p>
+
+<section>
+    <div class="jumbotron">
+        <div class="media" align="center">
+        <img src="images/uebersicht1.jpg" alt="Uebersicht" height="50%" width="50%">
+        <div class="media-body" style="margin: auto;">
+        <h4 class="text-center">Wir vermitteln Zeit mit Tieren<br></h4>
+        <p>
+        „Pick a Pet“ setzt sich seit
+        Jahren für Hunde und Katzen ein
+        und ist sehr stolz darauf, schon
+        etlichen Tieren geholfen zu haben
+        ein Zuhause zu finden.
+        </p>
+    </div>
+
+</div>
+    <div class="media" align="center">
+        <div class="media-body" style="margin: auto;">
+            <h4 class="text-center">Krisen erfordern Zusammenhalt</h4>
+            <p>
+            Gerade in der Corona-Zeit, ist
+            es wichtig zusammen zu halten
+            und füreinander da zu sein. Wir
+            bedanken uns für alle
+            gesammelten
+            Spenden und bei jedem einzelnen
+            Kunden.
+            </p>
+        </div>
+            <img src="images/uebersicht2.jpg" height="50%" width="50%">
+    </div>
+    </div>
+</section>
+<!--Sucherergebnisse für "Giessen"-->
+<section>
+    <h3 style="padding: 1%">Sucherergebnisse für "Giessen"</h3>
+    <div class="row">
+        <div class="col-6">
+        <ul class="list-unstyled">
+            <li class="media">
+                <img src="images/uebersicht1.jpg" class="mr-3 align-self-center" alt="..." width="60" height="60">
+                <div class="media-body">
+                    <h5 class="mt-0 mb-1">Luis - der Schüchterne</h5>
+                    <p>Luis ist erst 12 Wochen alt und daher<br>
+                    sehr schüchtern, aber verspielt sobald<br>
+                    er sich an sein Umfeld gewöhnt hat...
+                    <button type="button" class="btn btn-sm justify-content-end" style="background-color: #786E5E;float: right">Details</button>
+                    </p>
+
+                </div>
+            </li>
+            <li class="media my-4">
+                <img src="images/uebersicht1.jpg" class="mr-3 align-self-center" alt="..." width="50" height="50">
+                <div class="media-body">
+                    <h5 class="mt-0 mb-1">Cookie und Sally</h5>
+                    <p>
+                    Diese zwei Fellnasen sind<br>
+                    abenteuerlustig und Freigänger...
+                    <button type="button" class="btn btn-sm" style="background-color: #786E5E;float: right">Details</button>
+                    </p>
+                </div>
+            </li>
+            <li class="media">
+                <img src="images/uebersicht1.jpg" class="mr-3" alt="..." width="50" height="50">
+                <div class="media-body">
+                    <h5 class="mt-0 mb-1">Jackson - ein Notfellchen</h5>
+                    <p>
+                    Jackson ist durch ein Handicap leicht<br>
+                    eingeschränkt in der Bewegung, lässt<br>
+                    sich dadurch aber nicht vom<br>
+                    Stöckchenholen abbringen
+                    <button type="button" class="btn btn-sm" style="background-color: #786E5E;float: right">Details</button>
+                    </p>
+                </div>
+            </li>
+        </ul>
+        </div>
+        <div class="col-5">
+            <div class="dropdown" align="center" style="padding: 10%">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Anzeige filtern
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Neuste - Älteste</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Älteste - Neuste</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding: 1%"></div>
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-2">
+            <button type="button nowrap" class="btn" style="background-color: #786E5E" >Weitere Ergebnisse</button>
+        </div>
+        <div class="col"></div>
+    </div>
+
+    <br><br><br><br><br><br>
+    <!--
+    <div class="container">
+    <div class="row">
+        <div class="col-7">
+            <div class="media">
+                <img src="images/uebersicht1.jpg" height="100%" width="100%" class="align-self-center">
+                <div class="media-body">
+                    <h4>Luis - der Schüchterne</h4>
+                    <p>Luis ist erst 12 Wochen alt und daher
+                        sehr schüchtern, aber verspielt sobald
+                        er sich an sein Umfeld gewöhnt hat...</p>
+                    <button type="button" class="btn">Details</button>
+                </div>
+            </div>
+            <div class="media">
+                <img src="images/uebersicht1.jpg" height="100%" width="100%" class="align-self-center">
+                <div class="media-body">
+                    <h4>Cookie und Sally</h4>
+                    <p>Diese zwei Fellnasen sind
+                        abenteuerlustig und Freigänger...</p>
+                    <button type="button" class="btn">Details</button>
+                </div>
+            </div>
+            <div class="media">
+                <img src="images/uebersicht1.jpg" height="100%" width="100%" class="align-self-center">
+                <div class="media-body">
+                    <h4>Jackson - ein Notfellchen</h4>
+                    <p>Jackson ist durch ein Handicap leicht
+                        eingeschränkt in der Bewegung, lässt
+                        sich dadurch aber nicht vom
+                        Stöckchenholen abbringen.</p>
+                    <button type="button" class="btn">Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-5">
+
+        </div>
+    </div>
+    </div>
+-->
+</section>
+<!--Sucherergebnisse für "Giessen" End-->
+
+<!------------------footer----------------------------->
+<footer class="fixed-bottom " align="center" style="background-color: #ECF1F5;height: 100px">
+    <div class="container">
+    <div class="row justify-self-center">
+        <div class="col">
+            <h5>Kontakt</h5>
+        </div>
+        <div class="col">
+            <h5>Impressum & Datenschutz</h5>
+        </div>
+        <div class="col">
+            <h5>AGB</h5>
+    </div>
+    </div>
+    <div class="row py-1 justify-self-center">
+        <div class="col">
+            <img src="images/facebook.svg" width="100%" height="100%" alt="Unser FB" style="width: 100%;height: auto;">
+        </div>
+        <div class="col">
+            <img src="images/instagram.svg" width="100%" height="100%" alt="Insagram..">
+        </div>
+        <div class="col">
+            <img src="images/twitter.svg" width="100%" height="100%" alt="Twitter..">
+        </div>
+    </div>
+    </div>
+</footer>
+<!------------------footer End----------------------------->
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="14aeb373-3590-42c7-8ac2-a589a8aec99a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kSE3lscudT6erNQNHiJT3ADLOU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14aeb373-3590-42c7-8ac2-a589a8aec99a" name="Default Changelist" comment="" />
+      <created>1605685395860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605685395860</updated>
+      <workItem from="1605685396929" duration="1747000" />
+      <workItem from="1605691192848" duration="13736000" />
+      <workItem from="1605714152304" duration="340000" />
+      <workItem from="1605774687873" duration="4655000" />
+      <workItem from="1605817045897" duration="13602000" />
+      <workItem from="1605890811400" duration="212000" />
+      <workItem from="1605973923915" duration="299000" />
+      <workItem from="1605979633998" duration="334000" />
+      <workItem from="1605981946499" duration="18141000" />
+      <workItem from="1606058464179" duration="6031000" />
+      <workItem from="1606126863701" duration="16610000" />
+      <workItem from="1606157071132" duration="14846000" />
+      <workItem from="1606232886426" duration="2430000" />
+      <workItem from="1606235736186" duration="6833000" />
+      <workItem from="1606298234998" duration="14184000" />
+      <workItem from="1606323409259" duration="10514000" />
+      <workItem from="1606336670439" duration="7060000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="187" y="4" key="SettingsEditor" timestamp="1606339146844">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="187" y="4" key="SettingsEditor/0.0.1366.741@0.0.1366.741" timestamp="1606339146844" />
+  </component>
+</project>

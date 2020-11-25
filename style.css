@@ -1,0 +1,27 @@
+/*
+nav{
+position: fixed;
+padding: 0px;
+}*/
+
+
+.brown{
+    color: #786E5E;
+}
+.underline {
+    text-decoration: underline;
+}
+
+.btnbrn{
+    --button-color: #786E5E;
+    --button-background-color: #786E5E;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px 20px;
+    grid-template-areas:
+    ". . . ."
+    ". . . .";
+}
