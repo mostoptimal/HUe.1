@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14aeb373-3590-42c7-8ac2-a589a8aec99a" name="Default Changelist" comment="Last Verion from the Website">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,7 @@
       <workItem from="1606893316877" duration="3113000" />
       <workItem from="1606909149303" duration="411000" />
       <workItem from="1606909791275" duration="5475000" />
-      <workItem from="1606920337413" duration="2660000" />
+      <workItem from="1606920337413" duration="3024000" />
     </task>
     <task id="LOCAL-00001" summary="Last Verion from the Website">
       <created>1606922188484</created>
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606922490005</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Last Verion from the Website">
+      <created>1606923275041</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606923275041</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
