@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="14aeb373-3590-42c7-8ac2-a589a8aec99a" name="Default Changelist" comment="" />
+    <list default="true" id="14aeb373-3590-42c7-8ac2-a589a8aec99a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/67-672646_logo-facebook-gris-png-logo-facebook-png-gris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/adress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/doggi.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/doggo.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fcb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gam.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gol.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/golden2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/goo.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/telephone.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HUe.1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HUe.1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/facebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/twitter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +56,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="15" />
+      <option value="200" />
+    </hideBySeverity>
+  </component>
   <component name="ProjectId" id="1kSE3lscudT6erNQNHiJT3ADLOU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,9 +75,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/samstag/HUe.1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -54,17 +105,77 @@
       <workItem from="1606235736186" duration="6833000" />
       <workItem from="1606298234998" duration="14184000" />
       <workItem from="1606323409259" duration="10514000" />
-      <workItem from="1606336670439" duration="7060000" />
+      <workItem from="1606336670439" duration="9496000" />
+      <workItem from="1606378900719" duration="38000" />
+      <workItem from="1606380435817" duration="262000" />
+      <workItem from="1606380762659" duration="3162000" />
+      <workItem from="1606389097738" duration="2354000" />
+      <workItem from="1606404244678" duration="6225000" />
+      <workItem from="1606481384422" duration="6601000" />
+      <workItem from="1606496717347" duration="590000" />
+      <workItem from="1606498739077" duration="264000" />
+      <workItem from="1606579542530" duration="544000" />
+      <workItem from="1606583869484" duration="8000" />
+      <workItem from="1606652795546" duration="604000" />
+      <workItem from="1606726980308" duration="27000" />
+      <workItem from="1606848899486" duration="606000" />
+      <workItem from="1606893316877" duration="3113000" />
+      <workItem from="1606909149303" duration="411000" />
+      <workItem from="1606909791275" duration="5475000" />
+      <workItem from="1606920337413" duration="1636000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="187" y="4" key="SettingsEditor" timestamp="1606339146844">
+    <state x="312" y="51" width="732" height="631" key="#Inspections" timestamp="1606383357729">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="187" y="4" key="SettingsEditor/0.0.1366.741@0.0.1366.741" timestamp="1606339146844" />
+    <state x="312" y="51" width="732" height="631" key="#Inspections/0.0.1366.741@0.0.1366.741" timestamp="1606383357729" />
+    <state x="466" y="127" width="424" height="478" key="FileChooserDialogImpl" timestamp="1606909556242">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="466" y="127" width="424" height="478" key="FileChooserDialogImpl/0.0.1366.741@0.0.1366.741" timestamp="1606909556242" />
+    <state x="557" y="269" key="Github.ShareDialog" timestamp="1606344092567">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="557" y="269" key="Github.ShareDialog/0.0.1366.741@0.0.1366.741" timestamp="1606344092567" />
+    <state x="468" y="71" width="419" height="591" key="Github.UntrackedFilesDialog" timestamp="1606344107261">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="468" y="71" width="419" height="591" key="Github.UntrackedFilesDialog/0.0.1366.741@0.0.1366.741" timestamp="1606344107261" />
+    <state x="187" y="4" key="SettingsEditor" timestamp="1606382252458">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="187" y="4" key="SettingsEditor/0.0.1366.741@0.0.1366.741" timestamp="1606382252458" />
+    <state x="278" y="105" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1606918916274">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="278" y="105" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.741@0.0.1366.741" timestamp="1606918916274" />
+    <state x="492" y="286" width="372" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606849253020">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="492" y="286" width="372" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.741@0.0.1366.741" timestamp="1606849253020" />
+    <state x="346" y="62" width="672" height="678" key="search.everywhere.popup" timestamp="1606910499181">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="346" y="62" width="672" height="678" key="search.everywhere.popup/0.0.1366.741@0.0.1366.741" timestamp="1606910499181" />
   </component>
 </project>
