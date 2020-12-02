@@ -19,28 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14aeb373-3590-42c7-8ac2-a589a8aec99a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/67-672646_logo-facebook-gris-png-logo-facebook-png-gris.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/adress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/doggi.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/doggo.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/fcb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gam.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gol.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/golden2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/goo.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/person.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pr.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/telephone.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HUe.1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HUe.1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+    <list default="true" id="14aeb373-3590-42c7-8ac2-a589a8aec99a" name="Default Changelist" comment="Last Verion from the Website">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/facebook.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/instagram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/twitter.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,8 +103,16 @@
       <workItem from="1606893316877" duration="3113000" />
       <workItem from="1606909149303" duration="411000" />
       <workItem from="1606909791275" duration="5475000" />
-      <workItem from="1606920337413" duration="1636000" />
+      <workItem from="1606920337413" duration="2137000" />
     </task>
+    <task id="LOCAL-00001" summary="Last Verion from the Website">
+      <created>1606922188484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606922188484</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +131,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Last Verion from the Website" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last Verion from the Website" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="51" width="732" height="631" key="#Inspections" timestamp="1606383357729">
@@ -165,10 +155,10 @@
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state x="187" y="4" key="SettingsEditor/0.0.1366.741@0.0.1366.741" timestamp="1606382252458" />
-    <state x="278" y="105" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1606918916274">
+    <state x="278" y="105" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1606922155820">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="278" y="105" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.741@0.0.1366.741" timestamp="1606918916274" />
+    <state x="278" y="105" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.741@0.0.1366.741" timestamp="1606922155820" />
     <state x="492" y="286" width="372" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606849253020">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
